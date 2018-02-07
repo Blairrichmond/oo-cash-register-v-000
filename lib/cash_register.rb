@@ -3,7 +3,7 @@ class CashRegister
   attr_accessor :total, :item
 
   def initialize(total, item)
-    @total = total
+    @total = 0
     @item = item
   end
 end
